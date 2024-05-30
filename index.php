@@ -39,7 +39,7 @@
     </tr>
 </table>
 
-    <p style="font-size:12px;"><i>(в базу <b>astronomydb</b>, таблицу <b>naturalobject</b> в MySQL)</i></p>
+    <p style="font-size:12px;"><i>(в базу <b>astr_db</b>, таблицу <b>NaturalObjects</b> в MySQL)</i></p>
     <hr />
 </form>
 <!-- КОНЕЦ формы для добавления ВСПЛЫВАЮЩАЯ СТРОКА -->

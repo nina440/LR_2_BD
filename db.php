@@ -63,32 +63,6 @@ if (isset($_POST['bt1'])) { // Изменение проверки на POST
 }
 
 
-
-// // начало вставки для UPDATE
-// if (isset($_POST['id'])) {
-//     $textId = $_POST['id'];
-//     $type = $_POST['type'];
-//     $galaxy = $_POST['galaxy'];
-//     $accuracy = $_POST['accuracy'];
-//     $flux = $_POST['flux'];
-//     $associated = $_POST['associated'];
-//     $notes = $_POST['notes'];
-
-//     $sqlTM = "UPDATE NaturalObject SET type='$type', galaxy='$galaxy', accuracy='$accuracy', flux='$flux', associated='$associated', notes='$notes' WHERE id = $textId";
-
-//     try {
-//         $stmt = $pdoSet->query($sqlTM);
-//         if (!$stmt) {
-//             throw new Exception($pdoSet->errorInfo()[2]);
-//         } else {
-//             echo "Сущность успешно обновлена";
-//         }
-//     } catch (Exception $e) {
-//         echo "Ошибка: " . $e->getMessage();
-//     }
-// }
-// // конец вставки для UPDATE
-
 // начало вставки для UPDATE
 if (isset($_POST['id'])) {
     $textId = $_POST['id'];
